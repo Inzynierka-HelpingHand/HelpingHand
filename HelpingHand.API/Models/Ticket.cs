@@ -1,5 +1,8 @@
-﻿namespace HelpingHand.API.Models
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace HelpingHand.API.Models
 {
+	[ExcludeFromCodeCoverage]
 	public class Ticket
 	{
 		public int Id { get; set; }
