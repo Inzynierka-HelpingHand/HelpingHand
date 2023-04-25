@@ -1,7 +1,10 @@
+using System.Diagnostics.CodeAnalysis;
+
 namespace HelpingHand.API
 {
 	public class Program
 	{
+		[ExcludeFromCodeCoverage]
 		public static void Main(string[] args)
 		{
 			var builder = WebApplication.CreateBuilder(args);
