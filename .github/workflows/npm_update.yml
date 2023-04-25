@@ -28,5 +28,6 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           title: 'build(deps): Upgrade NPM packages (automated)'
-          branch: 'build-deps-upgrade-npm-packages-automated'
+          branch: npm_update
+          delete-branch: true
           commit-message: 'build(deps): upgrade NPM packages (automated)'
