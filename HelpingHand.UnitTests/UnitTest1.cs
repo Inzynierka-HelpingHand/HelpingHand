@@ -29,7 +29,7 @@ namespace HelpingHand.UnitTests
 			var controller = new WeatherForecastController(logger.Object);
 
 			//Act
-			var result = controller.Get();
+			var result = controller.GetById(0);
 
 			//Assert
 			result.Should().BeOfType<WeatherForecast[]>();
