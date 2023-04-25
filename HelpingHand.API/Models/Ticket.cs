@@ -2,7 +2,6 @@
 
 namespace HelpingHand.API.Models
 {
-	[ExcludeFromCodeCoverage]
 	public class Ticket
 	{
 		public int Id { get; set; }
