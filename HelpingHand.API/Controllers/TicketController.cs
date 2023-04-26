@@ -15,7 +15,8 @@ namespace HelpingHand.API.Controllers
         public Ticket GetTicketById(int id)
 		{
 			return new Ticket() { 
-				Id = id
+				Id = id,
+				Title = "title"
 			};
 		}
 	}
