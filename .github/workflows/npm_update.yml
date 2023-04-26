@@ -24,11 +24,16 @@ jobs:
       - name: Upgrade packages 🔀
         run: npm update
 
+      - uses: tibdex/github-app-token@v1
+        id: generate-token
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+
       - name: Commit and create PR 🔀
         uses: peter-evans/create-pull-request@v3
         with:
           title: 'build(deps): Upgrade NPM packages (automated)'
           branch: 'build-deps-upgrade-npm-packages-automated'
           commit-message: 'build(deps): upgrade NPM packages (automated)'
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_SCOPED_TOKEN }}
+          token: ${{ steps.generate-token.outputs.token }}
