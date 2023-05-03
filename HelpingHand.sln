@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpingHand.API", "HelpingHand.API\HelpingHand.API.csproj", "{F20F7767-D716-415F-A1D2-D9D76581EE1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpingHand.API", "HelpingHand.API\HelpingHand.API.csproj", "{F20F7767-D716-415F-A1D2-D9D76581EE1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpingHand.UnitTests", "HelpingHand.UnitTests\HelpingHand.UnitTests.csproj", "{4E734B6F-B7D0-4196-B7E9-8F8590238B8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpingHand.UnitTests", "HelpingHand.UnitTests\HelpingHand.UnitTests.csproj", "{4E734B6F-B7D0-4196-B7E9-8F8590238B8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpingHand.Core", "HelpingHand.Core\HelpingHand.Core.csproj", "{3903607E-AC68-4FA2-B789-1358E3C15BF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpingHand.Core", "HelpingHand.Core\HelpingHand.Core.csproj", "{665E51A7-55CF-4CAD-B376-F5A781116640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{4E734B6F-B7D0-4196-B7E9-8F8590238B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E734B6F-B7D0-4196-B7E9-8F8590238B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E734B6F-B7D0-4196-B7E9-8F8590238B8B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3903607E-AC68-4FA2-B789-1358E3C15BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3903607E-AC68-4FA2-B789-1358E3C15BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3903607E-AC68-4FA2-B789-1358E3C15BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3903607E-AC68-4FA2-B789-1358E3C15BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665E51A7-55CF-4CAD-B376-F5A781116640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665E51A7-55CF-4CAD-B376-F5A781116640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665E51A7-55CF-4CAD-B376-F5A781116640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665E51A7-55CF-4CAD-B376-F5A781116640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
