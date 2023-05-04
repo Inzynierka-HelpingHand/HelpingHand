@@ -7,7 +7,8 @@ namespace HelpingHand.API.Models
 		public int Id { get; set; }
 		public string? Title { get; set; }
 		public string? Description { get; set; }
-		public DateTime CreatedDate { get; set; }
-		public DateTime UpdatedDate { get; set; }
+		public DateTime? CreatedDate { get; set; }
+		public DateTime? UpdatedDate { get; set; }
+		public ICollection<Comment> Comments { get; set; } = new List<Comment>();
 	}
 }
