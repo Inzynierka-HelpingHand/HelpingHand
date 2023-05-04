@@ -1,10 +1,12 @@
-﻿namespace HelpingHand.API.Models
-{
-	public class User
-	{
-		public int? Id { get; set; }
-		public string? Name { get; set; }
-		public string? Email { get; set; }
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
+namespace HelpingHand.API.Models
+{
+	public class User : IdentityUser
+	{
+		public ICollection<Licence>? Licences { get; set; }
+		[Required]
+		public Location? Location { get; set; }
 	}
 }
