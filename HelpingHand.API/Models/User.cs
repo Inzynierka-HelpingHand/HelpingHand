@@ -8,5 +8,6 @@ namespace HelpingHand.API.Models
 		public ICollection<Licence>? Licences { get; set; }
 		[Required]
 		public Location? Location { get; set; }
+		public ICollection<Group>? Groups { get; set; }
 	}
 }

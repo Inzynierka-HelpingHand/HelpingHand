@@ -12,5 +12,6 @@ namespace HelpingHand.API.Models
 		[Required]
 		[StringLength(250)]
 		public string? Description { get; set; }
+		public ICollection<User>? Users { get; set; }
 	}
 }
