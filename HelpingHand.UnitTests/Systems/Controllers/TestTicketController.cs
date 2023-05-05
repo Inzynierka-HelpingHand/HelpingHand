@@ -1,5 +1,4 @@
 using FluentAssertions;
-using HelpingHand.API;
 using HelpingHand.API.Controllers;
 using HelpingHand.API.Models;
 using Microsoft.Extensions.Logging;
